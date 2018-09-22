@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  joseph2018:
+    image: ${DOCKER_REGISTRY}joseph2018
+    build:
+      context: .
+      dockerfile: joseph2018/Dockerfile
